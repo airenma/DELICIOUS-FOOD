@@ -144,10 +144,11 @@
 .place-order{
         position:relative;
         margin:0;
-        top:-75px;
+        top:-115px;
         width: 950px;
-        height: 200px;
+        height: 180px;
         margin:auto;
+        z-index: 99;
        
     .left{
         float: left;
@@ -160,7 +161,8 @@
             color: #888;
             text-transform: uppercase;
             font-size: 20px;
-            margin: 40px;
+            margin: 20px 40px;
+            padding:10px;
         }
         span{
             color:white;
@@ -176,36 +178,74 @@
         background: @center-right-order;
         border-right: 1px solid #c34136;
          h6{
+             display: inline-block;
              color:white;
-             margin:40px 10px 10px;
+             margin:50px 0px 0px 140px ;
              text-align: center;
+             font-size: 13px;
          }
          h3{
              text-align: center;
-             font-size: 20px;
+             font-size: 30px;
              color:white;
-            
+            margin:20px;
             .fone{
                 position:relative;
                 display: inline-block;
-                left:-10px;
+                top:-1px;
+                left:-5px;
                 background: white url(/img/sprite.png)no-repeat -796px -544px;
                 transform: rotate(-70deg);
-                width: 30px;
-                height: 30px;
+                width: 29px;
+                height: 29px;
                 vertical-align: middle;
                 border:1px solid white;
                 border-radius: 50%;
              }                   
          } 
-         
+         h3::after{
+             content: 'Or';
+             font-size: 1.5rem;
+            position: absolute;
+            top: 45%;
+            right:31%;
+            border: 1px solid #C34136;
+            border-radius: 50%;
+            padding: 7px;
+            color: #fff;
+            z-index: 2;
+            background-color: #DB4F44;
+            margin-top: -18px;
+            width: 30px;
+            height: 30px;
+         } 
          }
          }
     .right{
-        display: inline-block;
-        float: left;
-        width: 33%;
-        height: 100%;
-        background: @center-right-order;
-            
+            display: inline-block;
+            float: left;
+            width: 33%;
+            height: 100%;
+            background: @center-right-order;
+        
+        .order-now{
+            padding: 80px 0;
+        a{
+            position: relative;
+            left:70px;
+            padding: 20px 30px;
+            vertical-align: -webkit-baseline-middle;
+            font-size: 24px;
+            font-weight: bold;
+            color:@center-right-order;
+            background: #fff;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        a:hover{
+            background-color: #db4f44;
+            border: 1px solid #fff;
+            color: #fff;
+        }
+        }
         }

@@ -150,10 +150,11 @@ html body {
 .place-order {
   position: relative;
   margin: 0;
-  top: -75px;
+  top: -115px;
   width: 950px;
-  height: 200px;
+  height: 180px;
   margin: auto;
+  z-index: 99;
 }
 .place-order .left {
   float: left;
@@ -166,7 +167,8 @@ html body {
   color: #888;
   text-transform: uppercase;
   font-size: 20px;
-  margin: 40px;
+  margin: 20px 40px;
+  padding: 10px;
 }
 .place-order .left span {
   color: white;
@@ -181,26 +183,46 @@ html body {
   border-right: 1px solid #c34136;
 }
 .place-order .center h6 {
+  display: inline-block;
   color: white;
-  margin: 40px 10px 10px;
+  margin: 50px 0px 0px 140px ;
   text-align: center;
+  font-size: 13px;
 }
 .place-order .center h3 {
   text-align: center;
-  font-size: 20px;
+  font-size: 30px;
   color: white;
+  margin: 20px;
 }
 .place-order .center h3 .fone {
   position: relative;
   display: inline-block;
-  left: -10px;
+  top: -1px;
+  left: -5px;
   background: white url(/img/sprite.png) no-repeat -796px -544px;
   transform: rotate(-70deg);
-  width: 30px;
-  height: 30px;
+  width: 29px;
+  height: 29px;
   vertical-align: middle;
   border: 1px solid white;
   border-radius: 50%;
+}
+.place-order .center h3::after {
+  content: 'Or';
+  font-size: 1.5rem;
+  position: absolute;
+  top: 45%;
+  right: 31%;
+  border: 1px solid #C34136;
+  border-radius: 50%;
+  padding: 7px;
+  color: #fff;
+  z-index: 2;
+  background-color: #DB4F44;
+  margin-top: -18px;
+  width: 30px;
+  height: 30px;
 }
 .right {
   display: inline-block;
@@ -208,4 +230,33 @@ html body {
   width: 33%;
   height: 100%;
   background: #dc4f45;
+}
+.right .order-now {
+  padding: 80px 0;
+}
+.right .order-now a {
+  position: relative;
+  left: 70px;
+  padding: 20px 30px;
+  vertical-align: -webkit-baseline-middle;
+  font-size: 24px;
+  font-weight: bold;
+  color: #dc4f45;
+  background: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.right .order-now a:hover {
+  background-color: #db4f44;
+  border: 1px solid #fff;
+  color: #fff;
+}
+.bg2 {
+  position: relative;
+  top: -200px;
+  background: url(/img/experience-food-bg.jpg) no-repeat;
+  min-width: 960px;
+  width: 100%;
+  height: 800px;
+  box-sizing: border-box;
 }
