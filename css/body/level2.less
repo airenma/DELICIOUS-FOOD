@@ -1,9 +1,128 @@
 .bg2{
     position:relative;
     top:-200px;
-    background: url(/img/experience-food-bg.jpg)no-repeat;
-    min-width: 960px;
+    background: url(../img/experience-food-bg.jpg)no-repeat;
+    background-size: cover;
     width:100%;
     height: 800px;
     box-sizing: border-box;
+}
+.container2{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    height: 800px;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+
+.icon2{
+    position: relative;
+    top:160px;
+    margin:auto;
+    max-width: 100%;
+    background: url(../img/recipe-icon.png)no-repeat;
+    background-size: contain;
+    width: 100px;
+    height: 100px;
+    border: 0;
+    vertical-align: middle;
+    box-sizing: border-box;
+    
+    }
+
+>h2{
+    position: relative;
+    top:160px;
+    display:block;
+    font-size: 40px;
+    color:@white;
+    text-transform: uppercase;
+        
+    }
+>h4{
+    position: relative;
+    display:block;
+    top:150px;
+    color: @grey;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+        
+    }
+}
+
+.recipe{
+    position: relative;
+    top:150px;
+    width: 100%;
+    margin:0;
+    padding: 10px;
+>li{
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.85);
+    display: inline-block;
+    border-radius: 50%;
+    margin-left: -20px;
+    box-shadow: 0px 0px 40px #000;
+    transition: all 0.1s ease;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    list-style: none;
+    width:178px;
+    height: 178px;
+    
+
+>img{
+    position:relative;
+    display: inline-block;
+    border-radius: 50%;
+    max-height: 100%;
+    height: 90%;
+    width: 90%;
+    margin-top:5%;
+    max-width: 100%;
+    
+    }
+ >img:hover{
+  vertical-align: -10px;
+    }
+    }
+}
+/*recipe end*/
+
+.layer0:hover{
+    z-index: 10;
+    
+}
+.layer1:hover{
+        z-index: 10;
+}
+.layer2:hover{
+        z-index: 20;
+}
+.layer3:hover{
+        z-index: 30;
+}
+
+.know-more{
+    position: relative;
+    top:200px;    
+    margin:auto;
+    a{
+        background: @red;
+        color:@white;
+        padding:20px 30px;
+        border-radius: 5px;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    a:hover{
+        color:@red;
+        background: transparent;
+        border: 1px solid @red;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
 }

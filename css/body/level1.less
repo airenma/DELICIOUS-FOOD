@@ -1,5 +1,5 @@
 .level1{
-    background:linear-gradient(@gradient, #ffffff);
+    background:linear-gradient(@gradient, @white);
      width:100%;
     height:550px;
     border-bottom: 2px dotted @gradient;
@@ -114,16 +114,15 @@
             
         span{
             position: relative;
-            top:0;
             display: inline-block;
             font-size:16px;  
-            line-height: 180px;
-            margin:-90px auto;
+            line-height: 200px;
+            margin:-130px auto;
             font-family: 'Mr De Haviland', cursive;
             font-size: 96px;
             z-index: 1;
             &:hover{
-                text-shadow: 0px 0px 30px black, 0px 0px 20px white;
+            text-shadow: 0px 0px 30px black, 0px 0px 20px white;
 }           
 }
 }
@@ -131,9 +130,8 @@
 }
 
 .image1{
-    position:absolute;
-    top:60px;
-    right:25%;
+    position:relative;
+    margin:auto;
     background: url(../img/maker1.png)no-repeat;
     background-size: contain;
     width: 350px;
@@ -175,12 +173,12 @@
         width: 44.66666667%;
         margin:0;
         height: 100%;
-        background: @center-right-order;
+        background: @red;
         border-right: 1px solid #c34136;
          h6{
              display: inline-block;
              color:white;
-             margin:50px 0px 0px 140px ;
+             margin:40px 0px 0px 140px ;
              text-align: center;
              font-size: 13px;
          }
@@ -194,7 +192,7 @@
                 display: inline-block;
                 top:-1px;
                 left:-5px;
-                background: white url(/img/sprite.png)no-repeat -796px -544px;
+                background: white url(../img/sprite.png)no-repeat -796px -544px;
                 transform: rotate(-70deg);
                 width: 29px;
                 height: 29px;
@@ -207,7 +205,7 @@
              content: 'Or';
              font-size: 1.5rem;
             position: absolute;
-            top: 45%;
+            top: 50%;
             right:31%;
             border: 1px solid #C34136;
             border-radius: 50%;
@@ -226,7 +224,7 @@
             float: left;
             width: 33%;
             height: 100%;
-            background: @center-right-order;
+            background: @red;
         
         .order-now{
             padding: 80px 0;
@@ -237,15 +235,15 @@
             vertical-align: -webkit-baseline-middle;
             font-size: 24px;
             font-weight: bold;
-            color:@center-right-order;
+            color:@red;
             background: #fff;
             border-radius: 5px;
             text-decoration: none;
         }
         a:hover{
             background-color: #db4f44;
-            border: 1px solid #fff;
-            color: #fff;
+            border: 1px solid @white;
+            color: @white;
         }
         }
         }
