@@ -6,6 +6,10 @@ html body {
   margin: 0;
   paddin: 0;
 }
+h6 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
 .level1 {
   background: linear-gradient(#ebf0f3, #fff);
   width: 100%;
@@ -688,3 +692,187 @@ html body {
   height: 400px;
   background: #dc4f45;
 }
+.place-order2 img {
+  width: 300px;
+  margin: 1% 0 0 10%;
+  float: left;
+  box-sizing: border-box;
+  z-index: 0;
+}
+.place-order2 img:after {
+  content: '';
+  clear: both;
+}
+.place-order2 .reclama {
+  position: absolute;
+  top: 20%;
+  left: 40%;
+  width: 50%;
+  margin: auto;
+}
+.place-order2 .reclama h2 {
+  font-size: 40px;
+  color: white;
+}
+.place-order2 .reclama h4 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: white;
+}
+.place-order2 .reclama .buttons4 {
+  width: 90%;
+  transition: all 0.3s ease;
+}
+.place-order2 .reclama .buttons4 .button3 {
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+}
+.place-order2 .reclama .buttons4 a {
+  margin-top: 20px;
+  display: inline-block;
+  padding: 20px 30px;
+  margin-left: 1px;
+  margin-right: 15px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.place-order2 .reclama .buttons4 .white-btn {
+  background: #fff;
+  color: #dc4f45;
+  border: 1px solid #dc4f45;
+}
+.place-order2 .reclama .buttons4 .white-btn:hover {
+  color: #fff;
+  border: 1px solid #fff;
+  background: transparent;
+}
+.place-order2 .reclama .buttons4 .ios {
+  background-image: url(../img/ios2.png);
+  background-size: 60px;
+  background-repeat: no-repeat;
+  background-position: center right 16px;
+  font-weight: bold;
+  font-size: 16px;
+  padding-right: 85px;
+}
+.place-order2 .reclama .buttons4 .android {
+  background-image: url(../img/android3.png);
+  background-size: 40px;
+  background-repeat: no-repeat;
+  background-position: center right 16px;
+  font-weight: bold;
+  font-size: 16px;
+  padding-right: 68px;
+}
+.place-order2 .reclama .buttons4 .ios:hover {
+  background-image: url(../img/ios2.png);
+  background-size: 60px;
+  background-repeat: no-repeat;
+  background-position: center right 16px;
+  font-weight: bold;
+  font-size: 16px;
+  padding-right: 85px;
+}
+.place-order2 .reclama .buttons4 .android:hover {
+  background-image: url(../img/android3.png);
+  background-size: 40px;
+  background-repeat: no-repeat;
+  background-position: center right 16px;
+  font-weight: bold;
+  font-size: 16px;
+  padding-right: 68px;
+}
+.level4 {
+  position: relative;
+  background-image: url('../img/food-solution-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-top: -200px;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  z-index: 99;
+  /*container4 end*/
+  /*====food-menu1 end====*/
+}
+.level4 > .container {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.level4 > .container .icon4 {
+  margin: 0 auto;
+  background: url(../img/food-solution-icon.png) no-repeat;
+  max-width: 83px;
+  height: 82px;
+}
+.level4 > .container .text4 {
+  position: relative;
+  top: -130px;
+  width: 50%;
+  margin: 0 auto 0;
+  clear: both;
+}
+.level4 > .container .text4 h2 {
+  color: #fff;
+  text-align: center;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+.level4 > .container .text4 h4 {
+  color: #fff;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.level4 .food-menu1 {
+  position: relative;
+  top: -100px;
+  text-align: left;
+  padding: 30px 0;
+  height: 540px;
+  width: 90%;
+  margin: auto;
+  /*====white-fone end====*/
+}
+.level4 .food-menu1 figure img {
+  float: left;
+}
+.level4 .food-menu1 .white-fone {
+  position: relative;
+  width: 55%;
+  height: 100%;
+  background: #fff;
+  float: left;
+}
+.level4 .food-menu1 .white-fone .breakfast {
+  width: 80%;
+  border-bottom: 1px solid #d7d7d7;
+  margin-bottom: 30px;
+  margin-left: 25px;
+  margin-right: 20px;
+}
+.level4 .food-menu1 .white-fone h1 {
+  font-size: 60px;
+  font-family: Alice-Regular;
+  font-weight: 400;
+  margin-top: 10px;
+  margin-bottom: 0;
+  color: #505050;
+}
+.level4 .food-menu1 .white-fone h6 {
+  font-size: 14px;
+  margin: 10px 0 10px;
+  color: #505050;
+}
+.level4 .food-menu1 .white-fone .rating {
+  position: absolute;
+  right: 10px;
+  top: -8px;
+  background: url(../img/ribbon.png) no-repeat;
+  width: 84px;
+  height: 113px;
+}
+/*=======level4 end======*/
