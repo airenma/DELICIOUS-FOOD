@@ -274,14 +274,15 @@
 
 .place-order3{
     width: 100%;
-    height: 400px;
+    height: 300px;
     background: @red;
     .figure{
-        width: 25%;
+        width: 20%;
         height: auto;
         vertical-align: middle;
-        padding:30px;
-        margin-left:90px;
+        padding:15px;
+        margin-left:100px;
+        margin-right:10px;
         
         img{
             max-width: 100%;
@@ -294,9 +295,58 @@
     h1{
         float:left;
         color:@white;
-        margin-top:180px;
+        margin-top:140px;
         font-weight: 100;
         font-size:30px;
     }
     
-}
+    .view-now{
+        position:relative;
+        top:30px;
+        float:left;
+        margin:100px;
+        padding:17px;
+        background: @white;
+        width:180px;
+        height:60px;
+        border-radius:5px;
+        border: 1px solid @white;
+        box-sizing: border-box;
+        
+        a{
+            display:block;
+            color:@red;
+            text-decoration: none;
+            text-align:center;
+            margin:auto;
+            text-transform: uppercase;
+            font-size: 20px;
+            font-weight: bold;
+        }
+    }
+.view-now:hover{
+        position:relative;
+        top:30px;
+        float:left;
+        margin:100px;
+        padding:17px;
+        background: @red;
+        width:180px;
+        height:60px;
+        border-radius:5px;
+        border: 1px solid @white;
+        box-sizing: border-box;
+        
+        a:hover{
+            display:block;
+            color:@white;
+            text-decoration: none;
+            text-align:center;
+            margin:auto;
+            text-transform: uppercase;
+            font-size: 20px;
+            font-weight: bold;            
+        }
+    }
+    
+} /*--=======place-order3 end=======--*/
