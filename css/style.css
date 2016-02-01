@@ -1242,9 +1242,290 @@ h6 {
   height: 48%;
 }
 .level5 .button5 {
+  display: block;
   margin: auto;
   padding: 10px;
   text-align: center;
-  width: 10%;
+  width: 8%;
+  border: 1px solid #d7d7d7;
+  color: #837E7E;
+  border-radius: 5px;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 /*level5 end*/
+/*======LEVEL 6======*/
+.level6 {
+  background-image: url(../img/chef-bg.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+  padding-top: 80px;
+  /*figure end*/
+}
+.level6 .figure {
+  position: absolute;
+  left: 10%;
+  margin-top: 9px;
+  width: 40%;
+}
+.level6 .figure .chef1 {
+  position: absolute;
+  left: 135px;
+  background: url(../img/Chef-01.png) no-repeat;
+  background-size: cover;
+  width: 220px;
+  height: 490px;
+  display: inline-block;
+}
+.level6 .figure .chef2 {
+  background: url(../img/Chef-02.png) no-repeat;
+  background-size: cover;
+  width: 280px;
+  height: 490px;
+  display: inline-block;
+}
+.level6 .figure .chef3 {
+  background: url(../img/Chef-03.png) no-repeat;
+  background-size: cover;
+  width: 250px;
+  height: 490px;
+  display: inline-block;
+}
+.level6 .text6 {
+  position: absolute;
+  right: 10px;
+  width: 40%;
+}
+.level6 .text6 h2 {
+  margin: 20px 0 0px;
+  color: #fff;
+  width: 47%;
+  font-size: 36px;
+}
+.level6 .text6 h1 {
+  margin: 0;
+  color: #fff;
+  font-size: 120px;
+  font-weight: 500;
+}
+.level6 .text6 ul {
+  list-style: url(../img/chef-hat-icon.png);
+}
+.level6 .text6 ul li {
+  color: #888;
+  font-size: 16px;
+}
+.level6 .text6 ul li span {
+  position: relative;
+  bottom: 10px;
+  color: #fff;
+}
+.level6 .text6 ul li p {
+  margin: 0 0 5px;
+}
+/*level 7*/
+.level7 {
+  position: relative;
+  width: 100%;
+  height: 650px;
+  background: #f3f3f3;
+  margin-bottom: 0;
+  /*header*/
+  /*rating end*/
+}
+.level7 .header7 {
+  margin: auto;
+  padding-top: 50px;
+  margin-bottom: 20px;
+  width: 400px;
+  height: 200px;
+}
+.level7 .header7 .icon7 {
+  background: url(../img/booking-icon.png) no-repeat;
+  max-width: 83px;
+  height: 82px;
+  margin: 0 auto 20px;
+}
+.level7 .header7 h2 {
+  text-align: center;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #505050;
+  margin-bottom: 10px;
+}
+.level7 .header7 h4 {
+  text-align: center;
+  color: #505050;
+  font-size: 18px;
+  margin-top: 0;
+}
+.level7 .rating {
+  width: 75%;
+  margin: auto;
+}
+.level7 .rating h3 {
+  font-weight: 700;
+  color: #505050;
+}
+.level7 .rating h4 {
+  font-size: 14px;
+  color: #505050;
+  margin-top: -10px;
+}
+.level7 .rating article {
+  position: relative;
+  display: inline-block;
+  width: 30%;
+  margin-right: 30px;
+}
+.level7 .rating article .image {
+  position: absolute;
+  left: 150px;
+  width: 63px;
+  height: 63px;
+  border: 5px solid #dc4f45;
+  border-radius: 50%;
+}
+.level7 .rating article .img1 {
+  background: url(../img/face1.png) no-repeat;
+  background-size: cover;
+}
+.level7 .rating article .img2 {
+  background: url(../img/face2.png) no-repeat;
+  background-size: cover;
+}
+.level7 .rating article .img3 {
+  background: url(../img/face3.png) no-repeat;
+  background-size: cover;
+}
+.level7 .rating article i {
+  display: inline-block;
+  width: 50%;
+  font-size: 20px;
+  font-weight: 400;
+  color: #dc4f45;
+}
+.level7 .rating article span {
+  font-size: 24px;
+  color: #dc4f45;
+}
+.level7 .rating article .fa-star-o {
+  color: #dc4f45;
+}
+/*========place-order 7=======*/
+.place-order7 {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  background: #dc4f45;
+  box-sizing: border-box;
+}
+.place-order7 .left {
+  float: left;
+  width: 40%;
+  margin-left: 100px;
+  margin-top: 6%;
+}
+.place-order7 .left h2 {
+  display: inline-block;
+  margin-bottom: 0px;
+  color: #fff;
+  font-size: 35px;
+  font-weight: normal;
+}
+.place-order7 .left h4 {
+  color: #fff;
+  margin-top: 0;
+  font-size: 20px;
+}
+.place-order7 .right {
+  display: inline-block;
+  width: 45%;
+  margin-left: 90px;
+}
+.place-order7 .right input {
+  margin-top: 20%;
+  height: 40px;
+  width: 440px;
+  font-size: 20px;
+}
+.place-order7 .right button {
+  position: relative;
+  top: -1px;
+  right: 55px;
+  padding: 15.5px 20px;
+  background-color: #505050;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+/*=======LEVEL 8=======*/
+.level8 {
+  position: relative;
+  width: 100%;
+  height: 1100px;
+  background: #f3f3f3;
+  margin-bottom: 0;
+}
+.level8 .header8 {
+  width: 50%;
+  margin: auto;
+}
+.level8 .header8 h2 {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #505050;
+  margin-bottom: 10px;
+}
+.level8 .header8 h4 {
+  text-align: center;
+  color: #505050;
+  font-size: 18px;
+  margin-top: 0;
+}
+.level8 .contact-us {
+  position: relative;
+  width: 85%;
+  height: 150px;
+  margin: 5px auto 10px;
+}
+.level8 .contact-us input {
+  display: block;
+  margin-top: 10px;
+  padding: 20px 20px;
+  width: 90%;
+}
+.level8 .contact-us .button {
+  margin: 10px 0 0 0;
+  padding: 20px 50px;
+}
+.level8 .contact-us .left-sect {
+  width: 46%;
+  display: inline-block;
+  float: left;
+}
+.level8 .right-sect {
+  width: 45%;
+  display: inline-block;
+  float: right;
+}
+.level8 .content8 {
+  position: relative;
+  width: 85%;
+  height: 600px;
+  margin: 80px auto 20px;
+}
+.level8 .content8 > img {
+  float: left;
+}
+.level8 .content8 .our-time {
+  position: relative;
+  width: 60%;
+  height: 600px;
+  float: left;
+  background: #fff;
+}
+/*level 8 end*/
